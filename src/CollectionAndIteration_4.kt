@@ -7,6 +7,9 @@ fun main() {
     println(interstingThings.size)
     println(interstingThings[4]) // get the value of array by indexes
     println(interstingThings.get(0))//get value of array by indexes
-
-    
+    println()
+    // use basic for loop to get all data on array
+    for (newThings in interstingThings){
+       println(newThings)
+    }
 }
