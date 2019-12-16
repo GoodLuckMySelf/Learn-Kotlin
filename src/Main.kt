@@ -18,8 +18,6 @@ var num = 1.4
 // so if we want to add null value for variable with unknown type we must declaration null value first
 var varnum = null
 fun main() {
-    var name: String="Hello Arif "
-    name="My name is Arif!"
     nick="azizi"
 // creating if else statement
     if(nick != null){
@@ -28,7 +26,13 @@ fun main() {
         println("Hi!")
     }
 
-
+//    control flow
+//    on kotlin there is a some control flow that we call is "when" where this control flow similar with switch case on java
+//    so lets check it out
+    when(nick){
+        null -> println("Nick is null")
+        else -> println("nick has value "+nick)
+    }
 
 
 }
