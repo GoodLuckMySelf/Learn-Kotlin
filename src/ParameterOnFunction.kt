@@ -10,7 +10,8 @@ fun sayHello(itemToGreet: String){
 }
 
 fun greeting(greet: String, itemToGreet: String) = println("$greet $itemToGreet")
-
+// to remember that if your function have much parameter
+//then your parameter is doing to much so do it wisely
 fun main() {
     sayHello("Kotlin")
     sayHello("World! ")
