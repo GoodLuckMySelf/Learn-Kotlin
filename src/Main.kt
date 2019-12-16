@@ -20,14 +20,15 @@ var varnum = null
 fun main() {
     var name: String="Hello Arif "
     name="My name is Arif!"
-    println(greeting)
-    println(name)
-    println(nick)
-
     nick="azizi"
+// creating if else statement
+    if(nick != null){
+        println(nick)
+    }else{
+        println("Hi!")
+    }
 
-    println(greeting)
-    println(name)
-    println(nick)
+
+
 
 }
