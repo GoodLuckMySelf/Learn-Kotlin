@@ -13,9 +13,14 @@ fun main() {
        println(newThings)
     }
     println()
-    // use foreach to get al data
+    // use foreach to get all data
     interstingThings.forEach {
         //it is a default variable that we use to get element when using foreach
         println("new $it")
+    }
+    println()
+    // using lambda to replace the default variable
+    interstingThings.forEach { newVariable ->
+        println("lambda $newVariable")
     }
 }
