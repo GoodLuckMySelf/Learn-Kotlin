@@ -20,7 +20,14 @@ fun main() {
     }
     println()
     // using lambda to replace the default variable
+    // the idea behind this is if we have a function and it's only parameter
     interstingThings.forEach { newVariable ->
         println("lambda $newVariable")
+    }
+    println()
+    // all of this we lost the index of array.
+    // so to handle this we can use forEachIndexed
+    interstingThings.forEachIndexed { index, newvar ->
+        println("index $index value $newvar")
     }
 }
