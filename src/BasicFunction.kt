@@ -1,7 +1,10 @@
 // use fun to assign that we want define a new function
 fun getGreeting(): String = "Hello Kotlin" // single expression function
-fun getGreeting1():String {
-    return "Hello my Kotlin"
+fun getGreeting1() { // a function if we don't need return type
+    "Hello my Kotlin"
+}
+fun sample(): String? { // a function if return null
+    return null
 }
 // unit on kotlin is essentially the absence of any useful type
 // it similar that te return nothing useful
