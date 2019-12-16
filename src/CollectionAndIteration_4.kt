@@ -12,4 +12,10 @@ fun main() {
     for (newThings in interstingThings){
        println(newThings)
     }
+    println()
+    // use foreach to get al data
+    interstingThings.forEach {
+        //it is a default variable that we use to get element when using foreach
+        println("new $it")
+    }
 }
